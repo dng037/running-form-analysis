@@ -18,10 +18,10 @@ model.eval()
 # Create the list of keypoints
 points = ['nose', 'left_eye', 'right_eye', 'left_ear', 'right_ear', 'left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
 
-OVERSTRIDING = """From the 100+ side-profile photos of Eliud Kipchoge that were analyzed, his smallest stride angle was 83.67 degrees. Your stride angle is less than that, which indicates that you're likely overstriding. To fix this, try
+OVERSTRIDING = """From the 100+ side-profile photos of Eliud Kipchoge that were analyzed, his smallest knee angle was 83.67 degrees. Your knee angle is less than that, which indicates that you're likely overstriding. To fix this, try
  increasing your cadence, and extending your stride behind your body rather than in front of it. You can also stretch your hip flexors to increase the range of motion of your hips."""
 
-GOOD_STRIDE = """From the 100+ side-profile photos of Eliud Kipchoge that were analyzed, his smallest stride angle was 83.67 degrees. Your stride angle is greater than that, which means that your stride angle is good! 
+GOOD_STRIDE = """From the 100+ side-profile photos of Eliud Kipchoge that were analyzed, his smallest knee angle was 83.67 degrees. Your knee angle is greater than that, which means that your stride is good! 
 Maintain the good form, and remind yourself to land with your feet directly beneath you instead of out in front."""
 
 GOOD_LEAN = """From the 100+ side-profile photos of Eliud Kipchoge that were analyzed, his trunk angle ranged from 62.11 to 73.09 degrees. Your trunk angle lies within that range, well done!"""
