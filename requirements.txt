@@ -1,0 +1,6 @@
+Flask==2.0.1
+matplotlib==3.4.2
+numpy==1.18.2
+opencv_contrib_python==4.2.0.32
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
